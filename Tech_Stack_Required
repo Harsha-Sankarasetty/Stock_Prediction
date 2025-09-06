@@ -1,0 +1,18 @@
+🛠️ Technology Stack
+This project leverages a modern Python-based stack for time-series analysis and deep learning to predict stock prices.
+
+Core Language: Python 3.x
+
+Data Acquisition: yfinance - Used to fetch historical stock market data directly from the Yahoo Finance API.
+
+Data Manipulation & Analysis: Pandas & NumPy - The backbone for handling, cleaning, and preparing the time-series data in dataframes and for complex numerical operations.
+
+Deep Learning Framework: TensorFlow with the Keras API - Employed for building, training, and evaluating the deep learning model.
+
+Model Architecture: LSTM (Long Short-Term Memory) - A specialized type of Recurrent Neural Network (RNN) chosen for its effectiveness in learning patterns from sequential data like stock price history.
+
+Data Preprocessing: Scikit-learn - Specifically, the MinMaxScaler was used to scale the data into a uniform range, a crucial step for the proper functioning of LSTM networks.
+
+Data Visualization: Matplotlib or Plotly - Used to create charts and graphs to visualize the historical stock prices and compare the model's predictions against the actual values.
+
+Development Environment: Jupyter Notebook - For interactive development, data exploration, and visualizing results in one place.
